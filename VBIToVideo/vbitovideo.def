@@ -1,0 +1,16 @@
+;------------------------------------------------------------------------------
+; File: VBIToVideo.cpp
+;
+; Copyright (c) Aaron Giles.  All rights reserved.
+; Based from Microsoft DirectShow sample code.
+;------------------------------------------------------------------------------
+
+LIBRARY     VBIToVideo.dll
+
+EXPORTS
+            DllMain                 PRIVATE
+            DllGetClassObject       PRIVATE
+            DllCanUnloadNow         PRIVATE
+            DllRegisterServer       PRIVATE
+            DllUnregisterServer     PRIVATE
+

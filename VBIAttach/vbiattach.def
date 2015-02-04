@@ -1,0 +1,21 @@
+;------------------------------------------------------------------------------
+; File: VBIAttach.def
+;
+; Copyright (c) Aaron Giles.  All rights reserved.
+; Based from Microsoft DirectShow sample code.
+;------------------------------------------------------------------------------
+
+
+;===========================================================================
+;  Copyright (c) 1992-2002  Microsoft Corporation.  All Rights Reserved.
+;===========================================================================
+
+LIBRARY     VBIAttach.dll
+
+EXPORTS
+            DllMain                 PRIVATE
+            DllGetClassObject       PRIVATE
+            DllCanUnloadNow         PRIVATE
+            DllRegisterServer       PRIVATE
+            DllUnregisterServer     PRIVATE
+
