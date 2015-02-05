@@ -1,10 +1,17 @@
-# VBIUtils
-Collection of utilities for capturing laserdisc VBI data via DirectShow
+VBIUtils
+========
+Collection of utilities for capturing laserdisc VBI data via DirectShow.
 
-These are some DirectShow plugins that I wrote to capture laserdisc vertical blank (VBI) data for the MAME project. There are several important bits of information contained in the VBI region, but video captures don't include it by default. 
+These are some DirectShow plugins that I wrote to capture laserdisc vertical blank (VBI) data for the [MAME project](http://mamedev.org). There are several important bits of information contained in the VBI region, but video captures don't include it by default. 
 
 What these plugins do is capture the VBI data separately and then append the data to the top of each frame.
 
+Build Tools
+===========
+All the code has been built with Visual Studio 2008 under Windows 8.1. You must build the BaseClasses solution first. Make sure you select the non-MBCS versions to build.
+
+Contents
+========
 The subdirectories in this repository are as follows:
 
 * BaseClasses - contain an externally provided set of base classes for writing DirectShow plugins; these need to be compiled first.
